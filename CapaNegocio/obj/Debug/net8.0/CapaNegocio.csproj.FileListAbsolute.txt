@@ -1,0 +1,17 @@
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaNegocio.deps.json
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaNegocio.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaNegocio.pdb
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaDatos.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaEntidades.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaDatos.pdb
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\bin\Debug\net8.0\CapaEntidades.pdb
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.csproj.AssemblyReference.cache
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.AssemblyInfoInputs.cache
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.AssemblyInfo.cs
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNego.81B9D119.Up2Date
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\refint\CapaNegocio.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.pdb
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\ref\CapaNegocio.dll

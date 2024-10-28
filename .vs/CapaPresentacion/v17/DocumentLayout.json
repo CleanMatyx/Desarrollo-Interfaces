@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9537F3DE-916A-4C8F-A30D-AEE82E29B064}|Presentacion\\Presentacion.csproj|d:\\2damdaw\\dam - desarrollo de interfaces\\cineproyecto\\capapresentacion\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9537F3DE-916A-4C8F-A30D-AEE82E29B064}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04A4FA6C-0642-49B2-93A2-84D82C12D812}|CapaNegocio\\CapaNegocio.csproj|D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\capanegocio\\peliculasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04A4FA6C-0642-49B2-93A2-84D82C12D812}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\peliculasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9537F3DE-916A-4C8F-A30D-AEE82E29B064}|Presentacion\\Presentacion.csproj|D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\presentacion\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9537F3DE-916A-4C8F-A30D-AEE82E29B064}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A600A61-ABB6-4CB5-AB2A-BA24FE3749D3}|CapaEntidades\\CapaEntidades.csproj|D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\capaentidades\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A600A61-ABB6-4CB5-AB2A-BA24FE3749D3}|CapaEntidades\\CapaEntidades.csproj|solutionrelative:capaentidades\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F2BCC35-8523-42AC-93D7-C13E1E87A25B}|CapaDatos\\CapaDatos.csproj|D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\capadatos\\peliculasbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F2BCC35-8523-42AC-93D7-C13E1E87A25B}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\peliculasbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9537F3DE-916A-4C8F-A30D-AEE82E29B064}|Presentacion\\Presentacion.csproj|D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9537F3DE-916A-4C8F-A30D-AEE82E29B064}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 1107,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeliculasNegocio.cs",
+              "DocumentMoniker": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaNegocio\\PeliculasNegocio.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\PeliculasNegocio.cs",
+              "ToolTip": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaNegocio\\PeliculasNegocio.cs",
+              "RelativeToolTip": "CapaNegocio\\PeliculasNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:21:23.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\Presentacion\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Form1.Designer.cs",
+              "ToolTip": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\Presentacion\\Form1.Designer.cs",
+              "RelativeToolTip": "Presentacion\\Form1.Designer.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAAwNMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:05:20.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaEntidades\\Pelicula.cs",
+              "RelativeDocumentMoniker": "CapaEntidades\\Pelicula.cs",
+              "ToolTip": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaEntidades\\Pelicula.cs",
+              "RelativeToolTip": "CapaEntidades\\Pelicula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:14:07.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
+              "ToolTip": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\Presentacion\\Form1.cs [Design]",
+              "RelativeToolTip": "Presentacion\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:08:40.124Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PeliculasBD.cs",
+              "DocumentMoniker": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaDatos\\PeliculasBD.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\PeliculasBD.cs",
+              "ToolTip": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaDatos\\PeliculasBD.cs",
+              "RelativeToolTip": "CapaDatos\\PeliculasBD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:05:29.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\Presentacion\\Form1.cs",
+              "RelativeDocumentMoniker": "Presentacion\\Form1.cs",
+              "ToolTip": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\Presentacion\\Form1.cs",
+              "RelativeToolTip": "Presentacion\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:03:27.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

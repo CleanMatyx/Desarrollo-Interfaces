@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dMRALj3mJ+9wCK2ultRPiRjyoiJBqUv2UABmMEg1t6RsVNj3pCin5fX0ALaushis/UwrIJ2PHLgq7u3E9/jiWg==",
+  "success": true,
+  "projectFilePath": "D:\\2DAMDAW\\DAM - Desarrollo de Interfaces\\CineProyecto\\CapaPresentacion\\CapaEntidades\\CapaEntidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mtsbr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mtsbr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mtsbr\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
