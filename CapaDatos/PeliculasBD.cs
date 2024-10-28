@@ -62,9 +62,9 @@ namespace CapaDatos
                     while (reader.Read())
                     {
                         peliculas.Add(new Pelicula(
-                            reader.GetInt32(0), // id
-                            reader.GetString(1), // titulo
-                            reader.GetInt32(2), // duracion
+                            reader.GetInt32(0),
+                            reader.GetString(1),
+                            reader.GetInt32(2),
                             reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
                             reader.IsDBNull(4) ? null : reader.GetString(4)
                         ));
@@ -94,12 +94,12 @@ namespace CapaDatos
                 using (var connection = new NpgsqlConnection(connectionString))
                 {
                     connection.Open();
-                    return true; // Si la conexión es exitosa
+                    return true;
                 }
             }
             catch (Exception)
             {
-                return false; // Si hay un error en la conexión
+                return false;
             }
         }
     }
