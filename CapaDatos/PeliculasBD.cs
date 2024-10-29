@@ -68,10 +68,16 @@ namespace CapaDatos
                     while (reader.Read())
                     {
                         peliculas.Add(new Pelicula(
+<<<<<<< HEAD
                             reader.GetInt32(0), // id
                             reader.GetString(1), // titulo
                             reader.GetInt32(2), // duracion
                             //Si la edad recomendada es null la inicializo a 0
+=======
+                            reader.GetInt32(0),
+                            reader.GetString(1),
+                            reader.GetInt32(2),
+>>>>>>> 8dde3fc833612139530365461061228694694cda
                             reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
                             //si la descripción es null lo inicializo un texto default
                             reader.IsDBNull(4) ? descripcion : reader.GetString(4) 
