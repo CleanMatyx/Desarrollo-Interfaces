@@ -15,3 +15,4 @@ D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNego
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\refint\CapaNegocio.dll
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.pdb
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\ref\CapaNegocio.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaNegocio\obj\Debug\net8.0\CapaNegocio.sourcelink.json

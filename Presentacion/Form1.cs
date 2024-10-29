@@ -13,7 +13,7 @@ namespace Presentacion
         {
             InitializeComponent();
             peliculasDB = new PeliculasBD();
-            ComprobarConexion();
+            //ComprobarConexion();
             CargarPeliculas();
         }
 
@@ -32,8 +32,6 @@ namespace Presentacion
             {
                 column.Visible = false;
             }
-
-            dgvPeliculas.Columns["Id"].Visible = true;
             dgvPeliculas.Columns["Titulo"].Visible = true;
             dgvPeliculas.Columns["Duracion"].Visible = true;
         }
@@ -67,8 +65,9 @@ namespace Presentacion
 
         private void onClickCell(object sender, DataGridViewCellEventArgs e)
         {
+            //Con esto evito errores al pulsar un item con ID negativo
             int index = e.RowIndex;
-            if (index >= 0) // Ensure the index is valid
+            if (index >= 0)
             {
                 DataGridViewRow selectedRow = dgvPeliculas.Rows[index];
                 txtTitulo.Text = selectedRow.Cells["Titulo"].Value.ToString();
@@ -82,7 +81,7 @@ namespace Presentacion
         {
             try
             {
-                var pelicula = new Pelicula
+                Pelicula pelicula = new Pelicula
                 {
                     Titulo = txtTitulo.Text,
                     Duracion = int.Parse(txtDuracion.Text),
@@ -90,11 +89,12 @@ namespace Presentacion
                     Descripcion = txtDescripcion.Text
                 };
 
-                var peliculasNegocio = new PeliculasNegocio();
+                PeliculasNegocio peliculasNegocio = new PeliculasNegocio();
                 int idGenerado = peliculasNegocio.InsertarPelicula(pelicula);
 
                 MessageBox.Show($"Película insertada correctamente con ID: {idGenerado}");
-                CargarPeliculas(); // Recargar la lista de películas
+                CargarPeliculas();
+                LimpiarFormulario();
             }
             catch (ArgumentException ex)
             {

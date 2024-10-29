@@ -22,3 +22,4 @@ D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaEnti
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaEntidades\obj\Debug\net8.0\refint\CapaEntidades.dll
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaEntidades\obj\Debug\net8.0\CapaEntidades.pdb
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaEntidades\obj\Debug\net8.0\ref\CapaEntidades.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaEntidades\obj\Debug\net8.0\CapaEntidades.sourcelink.json

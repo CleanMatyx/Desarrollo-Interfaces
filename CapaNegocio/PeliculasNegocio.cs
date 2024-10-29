@@ -1,6 +1,5 @@
 ﻿using CapaDatos;
 using CapaEntidades;
-using System.Linq;
 
 namespace CapaNegocio
 {
@@ -10,7 +9,7 @@ namespace CapaNegocio
 
         public int InsertarPelicula(Pelicula pelicula)
         {
-            var peliculasExistentes = peliculasBD.ObtenerPeliculas();
+            List<Pelicula> peliculasExistentes = peliculasBD.ObtenerPeliculas();
             if (peliculasExistentes.Any(
                 p => p.Titulo.Equals(
                     pelicula.Titulo, StringComparison.OrdinalIgnoreCase)))

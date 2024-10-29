@@ -28,3 +28,4 @@ D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaDato
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaDatos\obj\Debug\net8.0\refint\CapaDatos.dll
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaDatos\obj\Debug\net8.0\CapaDatos.pdb
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaDatos\obj\Debug\net8.0\ref\CapaDatos.dll
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\CapaDatos\obj\Debug\net8.0\CapaDatos.sourcelink.json

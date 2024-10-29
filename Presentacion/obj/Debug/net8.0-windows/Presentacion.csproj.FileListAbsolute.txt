@@ -50,3 +50,4 @@ D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\Presenta
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\Presentacion\obj\Debug\net8.0-windows\ref\Presentacion.dll
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\Presentacion\bin\Debug\net8.0-windows\CapaNegocio.dll
 D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\Presentacion\bin\Debug\net8.0-windows\CapaNegocio.pdb
+D:\2DAMDAW\DAM - Desarrollo de Interfaces\CineProyecto\CapaPresentacion\Presentacion\obj\Debug\net8.0-windows\Presentacion.sourcelink.json

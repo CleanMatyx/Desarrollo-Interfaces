@@ -13,20 +13,25 @@ namespace CapaDatos
             if (string.IsNullOrEmpty(pelicula.Titulo))
                 throw new ArgumentException("El título no puede ser vacío.");
             if (pelicula.Duracion <= 0)
-                throw new ArgumentException("La duración debe ser mayor a 0.");
+                throw new ArgumentException("La duración debe ser mayor " +
+                    "a 0 minutos.");
 
             using (var connection = new NpgsqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "INSERT INTO Peliculas (titulo, duracion, " +
+                string query = "INSERT INTO Peliculas (titulo, duracion, " +
                             "edad_recomendada, descripcion) VALUES (@titulo, " +
                             "@duracion, @edadRecomendada, @descripcion) RETURNING id";
                 using (var cmd = new NpgsqlCommand(query, connection))
                 {
-                    cmd.Parameters.AddWithValue("titulo", pelicula.Titulo);
-                    cmd.Parameters.AddWithValue("duracion", pelicula.Duracion);
-                    cmd.Parameters.AddWithValue("edadRecomendada", pelicula.EdadRecomendada);
-                    cmd.Parameters.AddWithValue("descripcion", pelicula.Descripcion);
+                    cmd.Parameters.AddWithValue("titulo", 
+                        pelicula.Titulo);
+                    cmd.Parameters.AddWithValue("duracion", 
+                        pelicula.Duracion);
+                    cmd.Parameters.AddWithValue("edadRecomendada", 
+                        pelicula.EdadRecomendada);
+                    cmd.Parameters.AddWithValue("descripcion", 
+                        pelicula.Descripcion);
                     return (int)cmd.ExecuteScalar();
                 }
             }
@@ -34,13 +39,13 @@ namespace CapaDatos
 
         public List<Pelicula> ObtenerPeliculas()
         {
-            var peliculas = new List<Pelicula>();
+            List<Pelicula> peliculas = new List<Pelicula>();
             try
             {
                 using (var connection = new NpgsqlConnection(connectionString))
                 {
                     connection.Open();
-                    var query = "SELECT id, titulo, duracion, " +
+                    String query = "SELECT id, titulo, duracion, " +
                         "edad_recomendada, descripcion FROM Peliculas";
                     AgregarPeliculaALista(peliculas, connection, query);
                 }
@@ -55,6 +60,7 @@ namespace CapaDatos
         private static void AgregarPeliculaALista(List<Pelicula> peliculas, 
             NpgsqlConnection connection, string query)
         {
+            string descripcion = "Sin descripción";
             using (var cmd = new NpgsqlCommand(query, connection))
             {
                 using (var reader = cmd.ExecuteReader())
@@ -65,8 +71,10 @@ namespace CapaDatos
                             reader.GetInt32(0), // id
                             reader.GetString(1), // titulo
                             reader.GetInt32(2), // duracion
+                            //Si la edad recomendada es null la inicializo a 0
                             reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
-                            reader.IsDBNull(4) ? null : reader.GetString(4)
+                            //si la descripción es null lo inicializo un texto default
+                            reader.IsDBNull(4) ? descripcion : reader.GetString(4) 
                         ));
                     }
                 }
@@ -78,7 +86,7 @@ namespace CapaDatos
             using (var connection = new NpgsqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "DELETE FROM Peliculas WHERE id = @id";
+                string query = "DELETE FROM Peliculas WHERE id = @id";
                 using (var cmd = new NpgsqlCommand(query, connection))
                 {
                     cmd.Parameters.AddWithValue("id", id);
@@ -94,12 +102,12 @@ namespace CapaDatos
                 using (var connection = new NpgsqlConnection(connectionString))
                 {
                     connection.Open();
-                    return true; // Si la conexión es exitosa
+                    return true;
                 }
             }
             catch (Exception)
             {
-                return false; // Si hay un error en la conexión
+                return false;
             }
         }
     }

@@ -8,7 +8,8 @@
         private int edadRecomendada;
         private string descripcion;
 
-        public Pelicula(int id, string titulo, int duracion, int edadRecomendada, string descripcion)
+        public Pelicula(int id, string titulo, int duracion, 
+            int edadRecomendada, string descripcion)
         {
             Id = id;
             Titulo = titulo;
