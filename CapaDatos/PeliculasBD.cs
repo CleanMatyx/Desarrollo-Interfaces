@@ -22,17 +22,17 @@ namespace CapaDatos
                 string query = "INSERT INTO Peliculas (titulo, duracion, " +
                             "edad_recomendada, descripcion) VALUES (@titulo, " +
                             "@duracion, @edadRecomendada, @descripcion) RETURNING id";
-                using (var cmd = new NpgsqlCommand(query, connection))
+                using (var comando = new NpgsqlCommand(query, connection))
                 {
-                    cmd.Parameters.AddWithValue("titulo", 
+                    comando.Parameters.AddWithValue("titulo", 
                         pelicula.Titulo);
-                    cmd.Parameters.AddWithValue("duracion", 
+                    comando.Parameters.AddWithValue("duracion", 
                         pelicula.Duracion);
-                    cmd.Parameters.AddWithValue("edadRecomendada", 
+                    comando.Parameters.AddWithValue("edadRecomendada", 
                         pelicula.EdadRecomendada);
-                    cmd.Parameters.AddWithValue("descripcion", 
+                    comando.Parameters.AddWithValue("descripcion", 
                         pelicula.Descripcion);
-                    return (int)cmd.ExecuteScalar();
+                    return (int)comando.ExecuteScalar();
                 }
             }
         }
@@ -68,16 +68,13 @@ namespace CapaDatos
                     while (reader.Read())
                     {
                         peliculas.Add(new Pelicula(
-<<<<<<< HEAD
                             reader.GetInt32(0), // id
                             reader.GetString(1), // titulo
                             reader.GetInt32(2), // duracion
                             //Si la edad recomendada es null la inicializo a 0
-=======
                             reader.GetInt32(0),
                             reader.GetString(1),
                             reader.GetInt32(2),
->>>>>>> 8dde3fc833612139530365461061228694694cda
                             reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
                             //si la descripción es null lo inicializo un texto default
                             reader.IsDBNull(4) ? descripcion : reader.GetString(4) 
