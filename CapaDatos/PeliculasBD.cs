@@ -72,9 +72,6 @@ namespace CapaDatos
                             reader.GetString(1), // titulo
                             reader.GetInt32(2), // duracion
                             //Si la edad recomendada es null la inicializo a 0
-                            reader.GetInt32(0),
-                            reader.GetString(1),
-                            reader.GetInt32(2),
                             reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
                             //si la descripción es null lo inicializo un texto default
                             reader.IsDBNull(4) ? descripcion : reader.GetString(4) 
